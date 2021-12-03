@@ -1,23 +1,23 @@
-*{
+* {
   padding: 0;
   margin: 0 auto;
 }
 
-body{
+body {
   background-color: #458686;
 }
-.HoleBody{
+.HoleBody {
   width: 1170px;
   margin: auto;
 }
-.smallHeader img{
+.smallHeader img {
   width: 100px;
   height: 40px;
   float: left;
   margin: 10px;
 }
 
-.smallHeader{
+.smallHeader {
   background-color: #458686;
   width: 100%;
   height: 60px;
@@ -26,7 +26,7 @@ body{
   border-color: black;
 }
 
-.headerlist li{
+.headerlist li {
   list-style-type: none;
   display: inline-block;
   margin: 10px;
@@ -37,74 +37,72 @@ body{
   padding: 5px;
 }
 
-
-.headerlist{
+.headerlist {
   float: right;
   margin-right: 100px;
   margin-top: 10px;
-
 }
-.BigHeader{
-  background-color: #6BB95F;
+.BigHeader {
+  background-color: #6bb95f;
   width: 100%;
-  height: 100px;
+  height: 167px;
   text-align: center;
   border-radius: 2px;
   border-style: solid;
   border-width: 2px;
   border-color: black;
 }
-.BigHeader h1{
+.BigHeader h1 {
   position: relative;
-  top: 20px;
+
+  width: 30%;
+  top: 65px;
   font-family: "sans-serif";
 }
 
-.Content img{
+.Content img {
   float: right;
-  width:400px;
+  width: 400px;
   height: 250px;
-  margin-left:10px;
-  margin-right: 10px;
-
-}
-.content2 img{
-  float: right;
-  width:400px;
-  height: 250px;
-  margin-left:10px;
+  margin-left: 10px;
   margin-right: 10px;
 }
+.content2 img {
+  float: right;
+  width: 400px;
+  height: 250px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
 
-
-.Content{
-  background-color: #7A8D9F;
+.Content {
+  background-color: #7a8d9f;
   width: 100%;
   height: 250px;
   margin-top: 15px;
   margin-bottom: 15px;
-  border-bottom:solid 2px black;
-  border-top:solid 2px black;
+  border-bottom: solid 2px black;
+  border-top: solid 2px black;
 }
-.content2{
-  background-color: #8985AA;
+.content2 {
+  background-color: #8985aa;
   width: 100%;
   height: 250px;
   margin-top: 15px;
   margin-bottom: 15px;
-  border-bottom:solid 2px black;
-  border-top:solid 2px black;
+  border-bottom: solid 2px black;
+  border-top: solid 2px black;
 }
 
-.paragraph{
+.paragraph {
   width: 60%;
-  padding-left:20px;
+  padding-left: 20px;
   position: relative;
   top: 30px;
   float: left;
 }
 
-.contentheader{
+.contentheader {
   width: 200px;
   margin-bottom: 10px;
   text-align: left;
@@ -112,26 +110,25 @@ body{
   right: 250px;
 }
 
-.Footer{
+.Footer {
   width: 100%;
   height: 40px;
   clear: both;
   text-align: center;
   background-color: black;
   color: white;
-
 }
-a{
+a {
   text-decoration: none;
   color: purple;
 }
-a:hover{
-  color: #D1E5AB;
+a:hover {
+  color: #d1e5ab;
 }
 
 /* ------------------- */
 
-.printer img{
+.printer img {
   width: 100px;
   height: 63px;
   float: left;
@@ -139,14 +136,13 @@ a:hover{
   margin-left: 35%;
   margin-top: 10px;
 }
-.printer{
+.printer {
   width: 32.99%;
   height: 100%;
   float: left;
-  border:solid 2px black;
-
+  border: solid 2px black;
 }
-.info{
+.info {
   clear: both;
 
   text-align: center;
@@ -154,17 +150,18 @@ a:hover{
   float: left;
 }
 
-.info ul,li{
+.info ul,
+li {
   list-style-type: square;
   text-align: left;
   position: relative;
   left: 70px;
 }
 /* ------------------- */
-.Form{
-  background-color: #D1E5AB;
+.Form {
+  background-color: #d1e5ab;
   width: 100%;
-  min-width:400px;
+  min-width: 400px;
   padding-left: 20px;
   /* margin: 30px; */
   border: solid 5px black;
@@ -173,88 +170,108 @@ a:hover{
   margin-bottom: 5px;
 }
 
-.input{
+.input {
   display: inline-block;
   width: 90%;
   margin: 10px;
   border: solid 1px #458686;
   border-radius: 5px;
-  padding:5px;
-
+  padding: 5px;
 }
 
-.submit{
+.submit {
   display: block;
   padding: 10px;
   margin: 0 auto;
   color: black;
-  border:solid 2px black;
+  border: solid 2px black;
   margin-bottom: 10px;
   border-radius: 5px;
 }
-.submit:hover{
+.submit:hover {
   cursor: pointer;
-  background-color: #D1E5AB;
-  color:#551A8B;
+  background-color: #d1e5ab;
+  color: #551a8b;
 }
 
-.radio{
+.radio {
   margin-left: 10px;
   margin-right: 10px;
   padding-left: 50px;
 }
 
-label,label div{
+label,
+label div {
   padding-left: 5px;
 }
-.input:focus{
-  background-color:#6BB95F;
-  color: #551A8B;
+.input:focus {
+  background-color: #6bb95f;
+  color: #551a8b;
 }
 
-.headerbuyform{
-  color: #551A8B;
+.headerbuyform {
+  color: #551a8b;
   width: 90%;
   margin: 10px;
   text-align: center;
 }
 
-select,textarea{
+select,
+textarea {
   width: 90%;
   margin: 10px;
   border: solid 1px #458686;
   border-radius: 5px;
-  padding:5px;
+  padding: 5px;
 }
 
-select:focus{
-  background-color:#6BB95F;
-  color: #551A8B;
+select:focus {
+  background-color: #6bb95f;
+  color: #551a8b;
 }
 
-textarea:focus{
-  background-color:#6BB95F;
-  color: #551A8B;
+textarea:focus {
+  background-color: #6bb95f;
+  color: #551a8b;
 }
 
-#star{
+#star {
   color: red;
 }
 
-#star:hover{
-  color: #D1E5AB;
+#star:hover {
+  color: #d1e5ab;
 }
 
-.printerPrice{
+.printerPrice {
   color: purple;
   margin-top: 5px;
 }
 
-.map{
+.map {
   color: purple;
   text-align: center;
   font-size: 20px;
   font-weight: bold;
   width: 50%;
-  margin:0 auto;
+  margin: 0 auto;
+}
+
+.Login {
+  float: left;
+  margin-top: 1px;
+  margin-left: 2px;
+  border: solid 2px black;
+}
+.Login input {
+  padding: 2px;
+}
+.pass1 {
+  margin-left: 3px;
+}
+.submit1 {
+  margin-top: 1px;
+  margin-bottom: 1px;
+  display: block;
+  border-radius: 2px;
 }

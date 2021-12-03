@@ -6,6 +6,8 @@
     <meta name="description" content="form that user can enter his data to complete proccess of buying">
     <meta name="keywords" content="Epson,Printer,ink,buy,sell">
     <meta charset="utf-8">
+    <script src="scripts/script.js" type="text/javascript"></script>
+
   </head>
   <body>
       <div class="HoleBody">
@@ -30,12 +32,12 @@
           <h1>Buy Form</h1>
           <hr/>
         </div>
-        <label><div>First Name:</div><input type="text" name="FirstName" class="input" placeholder="Enter Your First Name.."></label>
-        <label><div>Last Name:</div><input type="text" name="LastName" class="input" placeholder="Enter Your Last Name.."></label>
-        <label><div>Phone Number:</div><input type="text" name="Phone Number" class="input" placeholder="Enter Your Phone Number.."></label>
-        <label><div>Email:</div><input type="text" name="Email" class="input" placeholder="Enter Your Email.."></label>
-        <label><div>Country:</div><input type="text" name="Country" class="input" value="Saudi Arabia" readonly="readonly"></label>
-        <label><div>City:</div><select name="City" class="input">
+        <label><div>First Name:</div><input type="text" onblur="inputblur(this);" onfocus="inputfocus(this);" name="FirstName" class="input" placeholder="Enter Your First Name.."></label>
+        <label><div>Last Name:</div><input type="text" onblur="inputblur(this);" onfocus="inputfocus(this);" name="LastName" class="input" placeholder="Enter Your Last Name.."></label>
+        <label><div>Phone Number:</div><input type="text" onblur="inputblur(this);" onfocus="inputfocus(this);" name="Phone Number" class="input" placeholder="Enter Your Phone Number.."></label>
+        <label><div>Email:</div><input type="text" onblur="inputblur(this);" onfocus="inputfocus(this);" name="Email" class="input" placeholder="Enter Your Email.."></label>
+        <label><div>Country:</div><input type="text" onblur="inputblur(this);" onfocus="inputfocus(this);" name="Country" class="input" value="Saudi Arabia" readonly="readonly"></label>
+        <label><div>City:</div><select name="City" onblur="inputblur(this);" onfocus="inputfocus(this);" class="input">
           <option value="Makkah">Makkah</option>
           <option value="Riyadh">Riyadh</option>
           <option value="Medina">Medina</option>
@@ -51,7 +53,7 @@
           <option value="Aljowf">Aljowf</option>
         </select></label>
         <label><div>Printer Model:</div>
-          <select  name="PrinterModel" class="input">
+          <select  name="PrinterModel" onblur="inputblur(this);" onfocus="inputfocus(this);" class="input">
             <option value="EPSON L3150 MEAF 3PIN">EPSON L3150 MEAF 3PIN - 1000SR</option>
             <option value="EPSON L5190 MEAF 3PIN">EPSON L5190 MEAF 3PIN - 500SR</option>
             <option value="EPSON L3111 MEAF 3PIN">EPSON L3111 MEAF 3PIN - 400SR</option>

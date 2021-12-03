@@ -6,6 +6,7 @@
     <meta name="description" content="information about Epson Company and his History">
     <meta name="keywords" content="Epson,Printer,ink">
     <meta charset="utf-8">
+    <script src="scripts/script.js" type="text/javascript"></script>
   </head>
   <body>
     <div class="HoleBody">
@@ -23,6 +24,19 @@
 
     </div>
     <div class="BigHeader">
+      <div class="Login">
+        <form class="Login1" onsubmit="return formsubmit();">
+          <label><div>Username: <input id="username1" onblur="inputblur(this);" onfocus="inputfocus(this);" type="text" name="Username" placeholder="Enter Your Username.."></div></label>
+          <div><p id="error0"></p></div>
+          <div><p id="error00"></p></div>
+          <label><div>Password: <input id="password1" onblur="inputblur(this);" onfocus="inputfocus(this);" type="password" name="Password" class="pass1" placeholder="Enter Your Password.."></div></label>
+          <div><p id="error1"></p></div>
+          <div><p id="error11"></p></div>
+          <label><input type="checkbox" name="remember-me" value="true"> Remember Me </label>
+          
+          <div class="submit1"><input type="submit" name="submit" value="Login"></div>
+        </form>
+      </div>
       <h1>EPSON Printer Store</h1>
     </div>
     <div class="Content">
