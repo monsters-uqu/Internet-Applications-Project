@@ -49,7 +49,6 @@ function feedbacksubmitform(){
         
     }
     if(checknum()===-1){
-        console.log(checknum());
         check=false;
     }else{
         errorMessage222.innerText="";
@@ -131,7 +130,6 @@ function feedbacksubmitform(){
      finalerror=document.getElementById("finalerror");
      
      finalerror.innerText=errorMessage2.innerText+"\n"
-     +errorMessage222.innerText+"\n"
      +errorMessage3.innerText+"\n"+errorMessage4.innerText+"\n"
      +errorMessage5.innerText+"\n"+errorMessage6.innerText+"\n"
      +errorMessage7.innerText;
@@ -150,7 +148,7 @@ function checknum(){
     if(checknum>=0){
         errorMessage222.innerText="Please Enter valid name without number";
         errorMessage222.style.color="red";
-        errorMessage222.style.display="block";
+        errorMessage222.style.display="inline";
         
         return -1;
     }else{

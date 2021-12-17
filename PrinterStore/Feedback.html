@@ -31,16 +31,17 @@
           <h1>Feedback Form</h1>
           <hr/>
         </div>
-        <div><p id="finalerror"></p></div>
-        <label><div>First Name:</div><input id="name1" onkeyup="checknum()" onblur="inputblur(this);" onfocus="inputfocus(this);" type="text" name="FirstName" class="input" placeholder="Enter Your Name.."></label>
-        <div><p id="error2"></p></div>
-        <div><p id="error222"></p></div>
+        <div id="finalerror"></div>
+        <label><div>Name:</div><input id="name1" onkeyup="checknum()" onblur="inputblur(this);" onfocus="inputfocus(this);" type="text" name="FirstName" class="input" placeholder="Enter Your Name.."></label>
+        <span id="error222"></span>
+        <div id="error2"></div>
+        
         <label><div>Phone Number:</div><input id="phone1" onblur="inputblur(this);" onfocus="inputfocus(this);" type="text" name="Phone Number" class="input" placeholder="Enter Your Phone Number.."></label>
-        <div><p id="error3"></p></div>
+        <div id="error3"></div>
         <label><div>Email:</div><input id="email1" onblur="inputblur(this);" onfocus="inputfocus(this);" type="text" name="Email" class="input" placeholder="Enter Your Email.."></label>
-        <div><p id="error4"></p></div>
+        <div id="error4"></div>
         <label><div>Subject:</div><input id="subject1" onblur="inputblur(this);" onfocus="inputfocus(this);" type="text" name="subject" class="input" placeholder="Enter Your subject.."></label>
-        <div><p id="error5"></p></div>
+        <div id="error5"></div>
         <label><div>Topics:</div><select id="topics1" onblur="inputblur(this);" onfocus="inputfocus(this);" name="Subject">
           <option value="Select a Topics">Select a Topics</option>
           <option value="suggestion">suggestion</option>
@@ -48,9 +49,9 @@
           <option value="Idea">Idea</option>
           <option value="Help">Help</option>
         </select></label>
-        <div><p id="error6"></p></div>
+        <div id="error6"></div>
         <label><div>Describtion:</div><textarea id="describtion1" onblur="inputblur(this);" onfocus="inputfocus(this);" name="Describtion"></textarea></label>
-        <div><p id="error7"></p></div>
+        <div id="error7"></div>
           <input type="submit" name="submit" value="Submit" class="submit">
 
       </form>
